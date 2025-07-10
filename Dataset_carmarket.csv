@@ -1,0 +1,27 @@
+#Data markup template
+ListingID: Unique alphanumeric identifier for each listing (primary key)
+ListingTitle: Unstructured text field containing seller-generated listing header
+ListingDate: ISO 8601 formatted timestamp of listing publication (YYYY-MM-DD HH:MM:SS)
+City: Municipal location of vehicle (nominal categorical)
+District: Administrative subdivision
+Brand: Manufacturer name (nominal categorical)
+Series: Vehicle line designation (e.g., F-series, Golf)
+Model: Specific model variant (string)
+Year: Model year (ordinal integer, 1900-2025)
+CountryOfProduction: ISO country code of manufacturing origin
+EngineSize(cc): Displacement volume in cubic centimeters (continuous numerical)
+EnginePower(HP): Rated power output in horsepower (continuous numerical)
+TransmissionType: Categorical (Automatic|Manual|CVT|DCT)
+DriveTrain: Drivetrain configuration (FWD|RWD|AWD|4WD)
+FuelType: Propulsion system (Gasoline|Diesel|Hybrid|BEV|PHEV)
+BodyType: Vehicle architecture (Sedan|SUV|Coupe|Hatchback)
+DoorsType: Count of access points (discrete numerical 2-5)
+SeatType: Number of seats including driver
+RefuelingVolume: Fuel tank capacity
+Mileage(km): Odometer reading in kilometers (non-negative continuous)
+MaintenanceType: Service history classification
+VehicleTax: Annual taxation cost (conditional on jurisdiction)
+Price: Listing price in local currency (positive continuous)
+SellerType: Vendor classification (Dealer|Private|Franchise)
+Color: Exterior color designation (hex values where available)
+Link: URL to source listing (URI format)
